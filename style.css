@@ -3,10 +3,10 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color:blanchedalmond;
+    background-color:rgb(235, 233, 230);
   }
   header, footer {
-    background-color: burlywood;
+    background-color: rgb(172, 144, 108);
     padding: 10px 20px;
     text-align: center;
   }
@@ -53,13 +53,16 @@ body {
   .content img {
     display: flex;
     object-fit: contain;
-    width: 50%;
+    width: 40%;
     max-height: 300px;
     border-radius: 5px;
+    border: 1px solid black;
   }
-  .content .text {
+  .content .text  {
     flex: 1;
-    max-width: 50%;
+    max-width: 40%;
+    height: 200px;
+    padding: 10px;
   }
   .reverse {
     flex-direction: row-reverse;
